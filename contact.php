@@ -6,7 +6,7 @@ function sh_set( $var, $key )
 	if( isset( $var[$key] ) ) return $var[$key];
 	
 }
-	$contact_to = 'support@wow-themes.com';
+	$contact_to = 'info@rccglighthouse.org';
 	include('validation.php');
 	$validation = new SH_Validation;
 	
@@ -45,7 +45,7 @@ function sh_set( $var, $key )
 			echo "<fieldset>";
 			echo "<div id='success_page' class='alert alert-success'>";
 			echo "<h3>".'Email Sent Successfully.'."</h3>";
-			echo "<p>".sprintf("Thank you <strong>%s</strong>, your message has been submitted to us.", $name)."</p>";
+			echo "<p>".sprintf("Thank you <strong>%s</strong>, your prayer request has been sent to us.", $name)."</p>";
 			echo "</div>";
 			echo "</fieldset>";
 			exit;
