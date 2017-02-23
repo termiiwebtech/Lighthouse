@@ -1,6 +1,6 @@
 ============================================================
 
-Official website: http://rccglighthouse.com
+Official website: http://rccglighthouse.org
 Support  System: support@termii.com
 
 ============================================================
@@ -8,8 +8,12 @@ Support  System: support@termii.com
 
 CHANGE LOG 
 Further Changes:
-*Make the blog work 
 *Gallery, Audio and Video Upload 
+
+------------ 1.0.2 Release Feb 23, 2017  ------------
+
+*Changed Backend to BatFlat
+*Activated the Blog
 
 ------------ 1.0.2 Release Jan 10, 2017  ------------
 
@@ -32,8 +36,8 @@ one scrolls down.: Changed the width of the image to 103% (main.css; line 814 .m
 The upcoming event tab was also taking off because its not real-time 
 (i.e the date is static)
  
- * Moved the �AND� and changed it to "&"  using <span style="margin-left: 39%;
-    font-size: 40px;"> </span>between where hope are�.. and potential are�� between the 2 phrases 
+ * Moved the “AND” and changed it to "&"  using <span style="margin-left: 39%;
+    font-size: 40px;"> </span>between where hope are….. and potential are…… between the 2 phrases 
 
      -  re-labeled the Media tab as Multimedia
 
@@ -57,7 +61,7 @@ The upcoming event tab was also taking off because its not real-time
 
       -Removed the phone numbers below the fliers. The prayer link is a form that is linked to the e-mail and the others  lead to contact us page after clicking on them. 
 
-      - Events & Happenings only instead of  �Events & Happenings at RCCG Lighthouse�.
+      - Events & Happenings only instead of  “Events & Happenings at RCCG Lighthouse”.
 
       - Added fb, twitter, google drive, YouTube icons
 
