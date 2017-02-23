@@ -1,6 +1,6 @@
 ============================================================
 
-Official website: http://rccglighthouse.com
+Official website: http://rccglighthouse.org
 Support  System: support@termii.com
 
 ============================================================
@@ -8,8 +8,12 @@ Support  System: support@termii.com
 
 CHANGE LOG 
 Further Changes:
-*Make the blog work 
 *Gallery, Audio and Video Upload 
+
+------------ 1.0.2 Release Feb 23, 2017  ------------
+
+*Changed Backend to BatFlat
+*Activated the Blog
 
 ------------ 1.0.2 Release Jan 10, 2017  ------------
 

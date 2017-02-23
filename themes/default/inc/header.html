@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{if: $page.desc}{$page.desc}{else}{$settings.description}{/if}" />
+    <meta name="keywords" content="{$settings.keywords}" />
+    <title>{$page.title} - {$settings.title}</title>
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+        <link rel="Shortcut Icon" type="image/ico" href="img/favicon.ico">
+       <link rel="stylesheet" href="{$bat.path}/inc/css/bootstrap.min.css" />
+       <link rel="stylesheet" href="{$bat.path}/themes/{$settings.theme}/css/main.css" />
+        <link rel="stylesheet" href="{$bat.path}/themes/{$settings.theme}/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{$bat.path}/themes/{$settings.theme}/css/owl.carousel.css">
+        <link rel="stylesheet" href="{$bat.path}/themes/{$settings.theme}/css/owl.theme.css">
+        <link rel="stylesheet" href="{$bat.path}/themes/{$settings.theme}/css/animate.css">
+        <link rel="stylesheet" href="{$bat.path}/themes/{$settings.theme}/css/normalize.css">
+        <link rel="stylesheet" href="{$bat.path}/themes/{$settings.theme}/css/responsive.css">
+        <script src="{$bat.path}/themes/{$settings.theme}/js/modernizr-2.8.3.min.js"></script>
+           <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext'>
+    {loop: $bat.header}{$value}{/loop}
+    </head>
+    <body>
+      
+        <header class="hem">
+            <div class="container hidden-xs">
+                <div class="row row-eq-height">
+                    <div class="col-md-5 text-center logo">
+                        <img class="img-responsive" src="{$bat.path}/themes/{$settings.theme}/img/logo.png" alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="top-contact-details">
+                            <div class="row mt-20">
+                                <div class="col-md-4">
+                                    <div class="clearfix border-r">
+                                        <img class="img-responsive pull-left t-contact-img" src="{$bat.path}/themes/{$settings.theme}/img/call.png" alt="">
+                                        <div class="t-contact-info ubuntu pull-left">
+                                            <span class="fz-14 gray-999">Call Us Now </span>
+                                            <span class="fz-13">817-897-4625</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="clearfix border-r">
+                                        <img class="img-responsive pull-left t-contact-img" src="{$bat.path}/themes/{$settings.theme}/img/email.png" alt="">
+                                        <div class="t-contact-info ubuntu pull-left">
+                                            <span class="fz-14 gray-999">Email us</span>
+                                            <span class="fz-12">info@rccglighthouse.org</span>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <a class="martel text-uppercase" href="#">$  Donate Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="main-nav mt-20">
+                    <div class="container">
+                        <div class="col-md-offset-5 col-md-8">
+                            <nav class="navbar navbar-default" style="margin-left: -18px;">
+                                  <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                      <span class="sr-only">Toggle navigation</span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                    </button>
+                                  </div>
+                                  <div id="navbar" class="navbar-collapse collapse no-margin no-padding">
+                                        <ul class="nav navbar-nav">
+                                          <li><a href="home">Home</a></li>
+                                          <li><a class="" href="about">About</a></li>
+                                          <li>
+                                            <a href="ministries">Ministries</a>
+                                          </li>
+                             <li class="dropdown"> <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requests<span class="caret"></span></a>
+                                                  <ul class="dropdown-menu">
+                                              <li><a href="prayer-request">Submit Prayer Request</a></li>
+                                              <li><a href="request-for-counseling">Request for Counseling</a></li>
+                                              <li><a href="baby-dedication">Baby Dedication / Naming</a></li>
+                                              <li><a href="wedding-ceremony">Wedding Ceremony</a></li>                            
+                                              <li><a href="premarital-counseling">Premarital Counselling</a></li>      
+                                            
+                                            </ul>
+                                          </li>    <li class="dropdown"> <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Multimedia<span class="caret"></span></a>
+                                                  <ul class="dropdown-menu">
+                                              <li><a href="gallery"> Photo Gallery</a></li>
+                                              <li><a href="audio">  Audio (sermon, music)</a></li>
+                                              <li><a href="video">Video (sermon, music)</a></li>
+                                             
+                                            </ul>
+                                          </li>
+                                          <li >
+                                            <a href="blog" >Blog</a>
+                                          </li>
+                                         <li class="dropdown">
+                                            <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources  <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                               <li><a href="church-forms">Church Forms</a></li>
+                                                <li><a href="https://trccg.org/rccg/tools/sunday-school-manual/">Sunday School Manual</a></li>
+                                                
+                                              <li><a href="https://trccg.org/rccg/tools/sunday-school-manual/">House Fellowship Manual</a></li>
+                                              <li><a href="https://trccg.org/rccg/tools/baptismal-manual/">Baptism Manual</a></li>
+                                              <li><a href="https://trccg.org/rccg/tools/open-heavens/">Open Heaven</a></li>
+                                              <li><a href="https://trccg.org/rccg/tools/workers-manual/">Worker's Manual</a></li>
+                                              <li><a href="https://trccg.org/rccg/tools/digging-deep-manual/">Digging Deep Manual</a></li>
+                                            </ul>
+                                          </li>
+                                          <li><a class="green-nav" href="contact-us">Contact</a></li>
+                                        </ul>
+                                  </div><!--/.nav-collapse -->
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+        </header>
+
+
+
+    <!-- Navigation -->

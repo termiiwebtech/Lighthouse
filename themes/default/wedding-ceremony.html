@@ -1,0 +1,91 @@
+
+
+
+    {include: themes/".$settings.theme."/inc/header.html}
+
+        <div class="page-title about-title text-center">
+          <h2 class=" white ">Wedding Ceremony Request</h2>
+          <div class="page-location text-center display-ib">
+            <span class="ubuntu fz-14 green-5c">Home   <i class="gray-e9">/</i>   Wedding Ceremony</span>
+          </div>
+        </div>
+
+        <section class="mt-50 contact-us">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 col-sm-8">
+                <h3 class="black h-sep">Wedding Ceremony <span class="text-extra-bold">Request</span></h3>
+                <p class="fz-16 gray-666 mt-50">Congratulations on your engagement! We are so happy to hear that you are taking such an important step in your life and we hope you find the following information as you plan your special day.
+
+We see each wedding as an important ministry of the church and our goal goes far beyond the day of your wedding - as we hope to help each couple prepare for a lifetime of growth in love and faith
+
+The wedding itself is a service of worship that celebrates the life-long covenant make with each other. A wedding evokes many emotions for it is at the same time a culmination of hopes and dreams, the beginning of a new experience, an occassion of deep commitment and an expression of your faith.
+
+Please take a moment to fill out the form below if you would like one of our Pastors to conduct your wedding ceremony.
+
+Please note that we would require at least four weeks notice prior to the event date to make proper arrangements.</p>
+
+                  <div class="mt-30" id="message"></div>
+
+                   {$contact.form}.
+                <!--  <form id="contactform_forms" class="mt-20 checkout-form" method="post" action="contact.php" style="margin-bottom: 10%;">
+                    <div class="row">
+                      <div class="col-md-6 mt-30"><input id="contact_name" type="text" name="contact_name" class="form-control" placeholder="First name"></div>
+                      <div class="col-md-6 mt-30"><input id="contact_email" type="email" name="contact_email" class="form-control" placeholder="Email address"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 mt-30"><input id="contact_phone" type="text" name="contact_phone" class="form-control" placeholder="Phone"></div>
+                      <div class="col-md-6 mt-30"><input id="contact_website" type="text" name="contact_website" class="form-control" placeholder="Your website"></div>
+                    </div>
+                    <textarea id="contact_message" rows="10" name="contact_message" class="mt-30 form-control" placeholder="Write message"></textarea>
+                    <div class="mt-50 submit">
+                      <input type="submit" class="martel text-extra-bold text-uppercase fz-14" value="Send message">
+                    </div>
+                  </form> -->
+                     
+              </div>
+              <div class="col-md-3 col-md-offset-1 col-sm-4 mt-150">
+                <div class="contact-info clearfix">
+                  <div class="pull-left">
+                    <h5 class="fz-15 black text-bold mb-10">Office Address</h5>
+                    <span class="ubuntu fz-14 gray-777 lh-22">2090 N. Hwy. 157 suite 200.<br> Mansfield. Texas.  76063.</span>
+                  </div>
+                  <div class="contact-icon pull-right position-r">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/office.png" alt="">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/office-hover.png" alt="">
+                  </div>
+                  <div class="clearfix"></div>
+                  <hr class="c-border">
+                </div>
+                <div class="contact-info clearfix mt-20">
+                  <div class="pull-left">
+                    <h5 class="fz-15 black text-bold mb-10">Phone</h5>
+                    <span class="ubuntu fz-14 gray-777 lh-22">(817) 897 4625<br> (817) 473-4442</span>
+                  </div>
+                  <div class="contact-icon pull-right position-r">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/phone.png" alt="">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/phone-hover.png" alt="">
+                  </div>
+                  <div class="clearfix"></div>
+                  <hr class="c-border">
+                </div>
+                <div class="contact-info clearfix mt-20">
+                  <div class="pull-left">
+                    <h5 class="fz-15 black text-bold mb-10">E-mail</h5>
+                    <span class="ubuntu fz-14 gray-777 lh-22">info@rccglighthouse.org</span>
+                  </div>
+                  <div class="contact-icon pull-right position-r">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/mail.png" alt="">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/mail-hover.png" alt="">
+                  </div>
+                  <div class="clearfix"></div>
+                  <hr class="c-border">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    {include: themes/".$settings.theme."/inc/footer.html}
+
+

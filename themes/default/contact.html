@@ -1,0 +1,61 @@
+      {include: themes/".$settings.theme."/inc/header.html}
+  <div class="page-title about-title text-center">
+          <h2 class="text-extra-bold white text-uppercase">Talk to us</h2>
+          <div class="page-location text-center display-ib">
+            <span class="ubuntu fz-14 green-5c">Home   <i class="gray-e9">/</i>   Contact</span>
+          </div>
+        </div>
+
+        <section class="mt-50 contact-us">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 col-sm-8">
+                <h3 class="black h-sep">Contact <span class="text-extra-bold">Us</span></h3>
+                <p class="fz-16 gray-666 mt-50">We want to hear from you, talk to us today</p>
+
+                  <div class="mt-30" id="message"></div>
+                 {$contact.form}.
+              </div>
+              <div class="col-md-3 col-md-offset-1 col-sm-4 mt-150">
+                <div class="contact-info clearfix">
+                  <div class="pull-left">
+                    <h5 class="fz-15 black text-bold mb-10">Office Address</h5>
+                    <span class="ubuntu fz-14 gray-777 lh-22">2090 N. Hwy. 157 suite 200.<br> Mansfield. Texas.  76063.</span>
+                  </div>
+                  <div class="contact-icon pull-right position-r">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/office.png" alt="">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/office-hover.png" alt="">
+                  </div>
+                  <div class="clearfix"></div>
+                  <hr class="c-border">
+                </div>
+                <div class="contact-info clearfix mt-20">
+                  <div class="pull-left">
+                    <h5 class="fz-15 black text-bold mb-10">Phone</h5>
+                    <span class="ubuntu fz-14 gray-777 lh-22">(817) 897 4625<br> (817) 473-4442</span>
+                  </div>
+                  <div class="contact-icon pull-right position-r">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/phone.png" alt="">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/phone-hover.png" alt="">
+                  </div>
+                  <div class="clearfix"></div>
+                  <hr class="c-border">
+                </div>
+                <div class="contact-info clearfix mt-20">
+                  <div class="pull-left">
+                    <h5 class="fz-15 black text-bold mb-10">E-mail</h5>
+                    <span class="ubuntu fz-14 gray-777 lh-22">info@rccglighthouse.org</span>
+                  </div>
+                  <div class="contact-icon pull-right position-r">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/mail.png" alt="">
+                    <img src="{$bat.path}/themes/{$settings.theme}/img/mail-hover.png" alt="">
+                  </div>
+                  <div class="clearfix"></div>
+                  <hr class="c-border">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    {include: themes/".$settings.theme."/inc/footer.html}
